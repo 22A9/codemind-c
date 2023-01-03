@@ -2,7 +2,7 @@
 #include<math.h>
 int main()
 {
-    int n,i,b,c=0,d;
+    int n,i,b,d,c=0;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++)
