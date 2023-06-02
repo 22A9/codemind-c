@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n,r,t,s,c=0;
+    int n,r,s,c=0,a;
     scanf("%d",&n);
-    t=n;
+    a=n;
     s=n*n;
     while(s>0)
     {
@@ -11,6 +11,6 @@ int main()
         c=c+r;
         s=s/10;
     }
-    if(t==c)printf("Neon Number");
+    if(c==a)printf("Neon Number");
     else printf("Not Neon Number");
 }
