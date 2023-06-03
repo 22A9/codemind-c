@@ -8,18 +8,18 @@ int main()
         r=n%10;
         s=s+r*r;
         n=n/10;
-        if( n==0&& s>=10)  
+        if( n==0 && s>=10)
         {
             n=s;
             s=0;
         }
-     }
-     if(s==1)
-     {
-         printf("True");
-     }
-     else
-     {
-         printf("False");
-     }
+    }
+    if(s==1)
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
 }
