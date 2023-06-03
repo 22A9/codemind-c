@@ -6,7 +6,7 @@ int main()
     while(n>0)
     {
         r=n%10;
-        if(r>c)c=r;
+        if(r>=c)c=r;
         n=n/10;
     }
     printf("%d",c);
